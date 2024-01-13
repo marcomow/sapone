@@ -20,7 +20,7 @@ jobs:
         with:
           provider: google
           lang: en-lv
-          source: rules/en.md
+          source: ./rules/en.md
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Save Translated Content
