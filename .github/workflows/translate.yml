@@ -21,7 +21,6 @@ jobs:
           provider: google
           lang: en-lv
           source: ./rules/en.md
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Save Translated Content
         run: echo "${{ steps.google-step.outputs.text }}" > rules/lv.md
