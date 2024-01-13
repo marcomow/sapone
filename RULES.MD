@@ -82,8 +82,10 @@ By Marko Kolombo
 **_4.4.1 Diamond_**
 
 One of the cards that can be drawn from the Soap Deck is the Diamond. 
-This card is special as it acts like a Joker. At the end of the round, before calculating the score, the player who has it shall declare which value the diamond will hold, that can be any of the other cards.
-> The diamond acts as a duplicate, f.i. the player declares that his diamond acts as a Watermelon (1); in this case it's like there is a second Watermelon card in play.
+This card is special as it acts like a Joker, and its value is not defined until the end of the Round.
+At the end of the Round, before calculating the score, the player who has it shall declare which value the diamond will hold, that can be any of the other cards.
+The diamond acts as a duplicate, f.i. the player declares that his diamond acts as a Watermelon (1); in this case it's like there is a second Watermelon card in play.
+> when a new Round begins, the value of the Diamond is reset and it's again undefined.
 
 **_5. Calculating the Score_**
 - **As soon as the last card from the Market Deck is drawn**, the last turn begins, and when this turn is over, the round will be over as well.
