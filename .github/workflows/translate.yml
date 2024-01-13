@@ -20,7 +20,8 @@ jobs:
         with:
           provider: google
           lang: en-lv
-          source: {{ github.workspace }}/rules/en.md
+          source: |
+           {{ github.workspace }}/rules/en.md
 
       - name: Save Translated Content
         run: echo "${{ steps.google-step.outputs.text }}" > rules/lv.md
