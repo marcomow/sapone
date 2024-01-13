@@ -114,17 +114,20 @@ The diamond acts as a duplicate, f.i. the player declares that his diamond acts 
    - **Example:** Adrian has 2 Leeks (2), 1 Broccoli (3), 1 Cucumber (4). Brooke has 1 Leek (2), 1 Broccoli (3), 3 Cucumbers (4). Both have equal numbers of different items and the same rarity levels (2, 3, 4). Adrian's extra card is a Leek (2), Brooke's are Cucumbers (4, 4). Adrian wins as the Leek (2) is rarer than the Cucumbers (4).
 
 **_7. Awarded Points_**
-- **1pt for Most Coins**
-- **2pts for Best Vegetables**
-- **2pts for Best Tools**
-- **3pts for Most Soap**
-- **4pts for Most Coins AND Best Vegetables**
-- **4pts for Most Coins AND Best Tools**
-- **5pts for Best Vegetables AND Best Tools**
-- **5pts for Most Coins AND Most Soap**
-- **6pts for Best Vegetables AND Most Soap**
-- **6pts for Best Tools AND Most Soap**
-- **7pts for Most Coins AND Best Vegetables AND Best Tools**
-- **10pts for Best Vegetables AND Best Tools AND Most Soap**
-- **15pts for Most Coins AND Best Tools AND Best Vegetables AND Most Soap**
+
+| Combination                         | C | V | T | S | Bonus | Total |
+|-------------------------------------|---|---|---|---|-------|-------|
+| Most Coins (C)                      | 1 |   |   |   |       | 1     |
+| Best Vegetables (V)                 |   | 2 |   |   |       | 2     |
+| Best Tools (T)                      |   |   | 2 |   |       | 2     |
+| Most Soap (S)                       |   |   |   | 3 |       | 3     |
+| Most Coins + Best Vegetables (C+V)  | 1 | 2 |   |   | 1     | 4     |
+| Most Coins + Best Tools (C+T)       | 1 |   | 2 |   | 1     | 4     |
+| Best Vegetables + Best Tools (V+T)  |   | 2 | 2 |   | 1     | 5     |
+| Most Coins + Most Soap (C+S)        | 1 |   |   | 3 | 1     | 5     |
+| Best Vegetables + Most Soap (V+S)   |   | 2 |   | 3 | 1     | 6     |
+| Best Tools + Most Soap (T+S)        |   |   | 2 | 3 | 1     | 6     |
+| Most Coins + V + T (C+V+T)          | 1 | 2 | 2 |   | 2     | 7     |
+| V + T + Most Soap (V+T+S)           |   | 2 | 2 | 3 | 2     | 9     |
+| Most Coins + T + V + Most Soap (C+T+V+S) | 1 | 2 | 2 | 3 | 3     | 12    |
 
