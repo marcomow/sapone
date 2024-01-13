@@ -15,13 +15,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Read Source File
+        id: read-file
+        run: echo "::set-output name=content::$(cat rules/en.md)"
+
       - uses: fabasoad/translation-action@main
         id: google-step
         with:
           provider: google
           lang: en-lv
-          source: |
-           {{ github.workspace }}/rules/en.md
+          source: ${{ steps.read-file.outputs.content }}
 
       - name: Save Translated Content
         run: echo "${{ steps.google-step.outputs.text }}" > rules/lv.md
