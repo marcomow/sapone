@@ -15,20 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Read Source File
-        id: read-file
-        run: |
-          CONTENT=$(cat rules/en.md)
-          echo "CONTENT<<EOF" >> $GITHUB_ENV
-          echo "$CONTENT" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
-
       - uses: fabasoad/translation-action@main
         id: google-step
         with:
           provider: google
           lang: en-lv
-          source: ${{ env.CONTENT }}
+          source: ./rules/en.md
 
       - name: Save Translated Content
         run: echo "${{ steps.google-step.outputs.text }}" > rules/lv.md
