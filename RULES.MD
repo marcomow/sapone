@@ -52,7 +52,8 @@ By Marko Kolombo
 
 **_3.2 Round's Flow_**
 - **Players take turns until the Market Deck has been emptied**; then, they end the current turn as usual, and then they calculate the scores.
-- **When the round is over**, each player compares their cards with the others to see who has the best combinations.
+- **When the round is over**, each player compares their cards with the others to see who has the best combinations. The scores are noted.
+- Then, all the cards are returned to their respective decks and shuffled, and a new Round begins.
 
 **_4. A Turn_**
 - **On each turn, each player performs 2 actions in sequence**:
