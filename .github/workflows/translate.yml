@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   google:
@@ -20,10 +20,16 @@ jobs:
         with:
           provider: google
           lang: en-lv
-          source: ./RULES.md
+          source: rules/en.md
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Print the result
+      - name: Save Translated Content
+        run: echo "${{ steps.google-step.outputs.text }}" > rules/lv.md
+
+      - name: Commit and Push Translation
         run: |
-          echo "Translation is '${{ steps.google-step.outputs.text }}'"
-          echo ${{ steps.google-step.outputs.text }} > RULES.md
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add rules/lv.md
+          git commit -m "Add Latvian translation for rules"
+          git push
