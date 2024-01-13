@@ -1,0 +1,35 @@
+name: Translate and Save
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  google:
+    name: Google Translation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: fabasoad/translation-action@main
+        id: google-step
+        with:
+          provider: google
+          lang: en-lv
+          source: RULES.md
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Print the result
+        run: |
+          echo "Translation is '${{ steps.google-step.outputs.text }}'"
+          echo ${{ steps.google-step.outputs.text }} > translation-ms-en.txt
+
+      - name: Upload Translation File
+        uses: actions/upload-artifact@v2
+        with:
+          name: translated-file
+          path: RULES-lv.md
