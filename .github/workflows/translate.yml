@@ -9,17 +9,17 @@ permissions:
   contents: write
 
 jobs:
-  google:
-    name: Google Translation
+  translation:
+    name: Tanslation
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
       - uses: fabasoad/translation-action@main
-        id: google-step
+        id: translation-step
         with:
-          provider: google
-          lang: en-lv
+          provider: mymemory
+          lang: en|lv
           source: ./rules/en.md
 
       - name: Save Translated Content
