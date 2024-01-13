@@ -20,16 +20,10 @@ jobs:
         with:
           provider: google
           lang: en-lv
-          source: RULES.md
+          source: ./RULES.md
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Print the result
         run: |
           echo "Translation is '${{ steps.google-step.outputs.text }}'"
-          echo ${{ steps.google-step.outputs.text }} > translation-ms-en.txt
-
-      - name: Upload Translation File
-        uses: actions/upload-artifact@v2
-        with:
-          name: translated-file
-          path: RULES-lv.md
+          echo ${{ steps.google-step.outputs.text }} > RULES.md
