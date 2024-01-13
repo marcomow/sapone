@@ -76,12 +76,18 @@ By Marko Kolombo
 
 **_4.4 Buy_**
 - **If not selling, the player can exchange 3 of his cards for 1 from the Soap Deck.**
-> the 3 exchanged cards are placed in a discard pile face down, and are out of play for the entire round.
+- the 3 exchanged cards are placed in a discard pile face down, and are out of play for the entire round.
 - **Then his turn is over.**
+
+**_4.4.1 Diamond_**
+One of the cards that can be drawn from the Soap Deck is the Diamond. 
+This card is special as it acts like a Joker. At the end of the round, before calculating the score, the player who has it shall declare which value the diamond will hold, that can be any of the other cards.
+> The diamond acts as a duplicate, f.i. the player declares that his diamond acts as a Watermelon (1); in this case it's like there is a second Watermelon card in play.
 
 **_5. Calculating the Score_**
 - **As soon as the last card from the Market Deck is drawn**, the last turn begins, and when this turn is over, the round will be over as well.
 - **At the end of the round**, the players reveal their cards and compare their combinations.
+> as soon as the round has ended, before calculating the score, if any player has the **Diamond** the player should state which value it will hold for the counting of the score (see #4.1.1)
 
 **_6. Combinations and Examples_**
 
