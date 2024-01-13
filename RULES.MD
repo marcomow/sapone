@@ -76,6 +76,7 @@ By Marko Kolombo
 
 **_4.4 Buy_**
 - **If not selling, the player can exchange 3 of his cards for 1 from the Soap Deck.**
+> the 3 exchanged cards are placed in a discard pile face down, and are out of play for the entire round.
 - **Then his turn is over.**
 
 **_5. Calculating the Score_**
