@@ -29,6 +29,7 @@ jobs:
           provider: google
           lang: en-lv
           source: ${{ env.CONTENT }}
+          rejectOnPartialFail: false
 
       - name: Save Translated Content
         run: echo "${{ steps.google-step.outputs.text }}" > rules/lv.md
