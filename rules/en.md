@@ -115,23 +115,20 @@ The diamond acts as a duplicate, f.i. the player declares that his diamond acts 
 
 **_7. Awarded Points_**
 
-
-| Combination                                   | C | V | T | S | Bonus | Total |
-|-----------------------------------------------|---|---|---|---|-------|-------|
-| Most Coins (C)                                | 1 |   |   |   |       | 1     |
-| Best Vegetables (V)                           |   | 2 |   |   |       | 2     |
-| Best Tools (T)                                |   |   | 2 |   |       | 2     |
-| Most Soap (S)                                 |   |   |   | 3 |       | 3     |
-| Most Coins + Best Vegetables (C+V)            | 1 | 2 |   |   | 1     | 4     |
-| Most Coins + Best Tools (C+T)                 | 1 |   | 2 |   | 1     | 4     |
-| Best Vegetables + Best Tools (V+T)            |   | 2 | 2 |   | 1     | 5     |
-| Most Coins + Most Soap (C+S)                  | 1 |   |   | 3 | 1     | 5     |
-| Best Vegetables + Most Soap (V+S)             |   | 2 |   | 3 | 1     | 6     |
-| Best Tools + Most Soap (T+S)                  |   |   | 2 | 3 | 1     | 6     |
-| Most Coins + V + T (C+V+T)                    | 1 | 2 | 2 |   | 2     | 7     |
-| V + T + Most Soap (V+T+S)                     |   | 2 | 2 | 3 | 2     | 9     |
-| Most Coins + T + V + Most Soap (C+T+V+S)      | 1 | 2 | 2 | 3 | 3     | 12    |
-| Most Coins + Best Vegetables + Most Soap (C+V+S) | 1 | 2 |   | 3 |       | 6     |
-| Most Coins + Best Tools + Most Soap (C+T+S)   | 1 |   | 2 | 3 |       | 6     |
-
-This table now includes all possible combinations of the four categories with their total points. Note that the bonus points are only added where explicitly mentioned in the original table.
+| Combination                                   | C | V | T | S | Bonus | **Total** |
+|-----------------------------------------------|---|---|---|---|-------|-----------|
+| Most Coins (C)                                | 1 |   |   |   | 0     | **1**     |
+| Best Vegetables (V)                           |   | 2 |   |   | 0     | **2**     |
+| Best Tools (T)                                |   |   | 2 |   | 0     | **2**     |
+| Most Soap (S)                                 |   |   |   | 3 | 0     | **3**     |
+| Most Coins + Best Vegetables (C+V)            | 1 | 2 |   |   | 1     | **4**     |
+| Most Coins + Best Tools (C+T)                 | 1 |   | 2 |   | 1     | **4**     |
+| Best Vegetables + Best Tools (V+T)            |   | 2 | 2 |   | 1     | **5**     |
+| Most Coins + Most Soap (C+S)                  | 1 |   |   | 3 | 1     | **5**     |
+| Best Tools + Most Soap (T+S)                  |   |   | 2 | 3 | 1     | **6**     |
+| Best Vegetables + Most Soap (V+S)             |   | 2 |   | 3 | 1     | **6**     |
+| Most Coins + V + T (C+V+T)                    | 1 | 2 | 2 |   | 2     | **7**     |
+| Most Coins + Best Vegetables + Most Soap (C+V+S) | 1 | 2 |   | 3 | 2     | **8**     |
+| Most Coins + Best Tools + Most Soap (C+T+S)   | 1 |   | 2 | 3 | 2     | **8**     |
+| V + T + Most Soap (V+T+S)                     |   | 2 | 2 | 3 | 2     | **9**     |
+| Most Coins + T + V + Most Soap (C+T+V+S)      | 1 | 2 | 2 | 3 | 3     | **12**    |
