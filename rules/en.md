@@ -64,7 +64,7 @@ By Marko Kolombo
 **_4.1 Sell_**
 - **The player chooses 1 card from their hand and places it face down on the table**, declaring its value. **Bluffing about the card's value is allowed** and can be strategic.
 - **The other players will bid one or more cards to buy the card on sale.**
-- when a card is placed on the table either buying or selling, they must remain there until the sale is ended and cannot be changed with other cards from the hand.
+- **when a card is placed on the table either buying or selling, it must remain there** until the sale is ended, and **cannot be changed** with other cards from the hand.
 - **FAQ: What if no one wants to bid on a card?** If no bids are made, the card remains with the seller, and their turn ends.
 - **Note:** The seller can also explicitly state their desires, e.g., "I want vegetables."
 
