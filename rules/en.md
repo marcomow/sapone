@@ -115,6 +115,14 @@ The diamond acts as a duplicate, f.i. the player declares that his diamond acts 
 
 **_7. Awarded Points_**
 
+For winning in a category, players are awarded points:
+- Most Coins (C): 1 point
+- Best Vegetables (V): 2 points
+- Best Tools (T): 2 points
+- Most Soap (S): 3 points
+
+One bonus point is awarded for each additional category winning.
+
 | Combination                                   | C | V | T | S | Bonus | **Total** |
 |-----------------------------------------------|---|---|---|---|-------|-----------|
 | Most Coins (C)                                | 1 |   |   |   | 0     | **1**     |
