@@ -68,12 +68,12 @@ A total of 100 cards divided into 2 decks.
 - **FAQ: What if no one wants to bid on a card?** If no bids are made, the card remains with the seller, and their turn ends.
 - **Note:** The seller can also explicitly state their desires, e.g., "I want vegetables."
 
-#### **4.1.1 Bidding**
+#### **4.1.1 Bid**
 - **The other players may bid on the card being sold as many of their own cards as they want.**
 - **The seller evaluates the offers and will ask for more if they're not satisfied**; if an agreement is reached, the players exchange the cards (the buyer may be entitled to a purchase compensation).
 - **Agreement or not, the player's turn is over**, and the next player's turn begins.
 
-#### **4.1.2 Doubting a Sale**
+#### **4.1.2 Doubt a Sale**
 - During a sale, if the seller bluffs about the card they are selling, any buyer has the right to doubt the authenticity of the seller's claim.
 - Upon being doubted, the seller must reveal the card on sale.
   - **If the seller was not bluffing:** The doubter must give one card from their hand to the seller, and the bidding continues as normal.
@@ -83,7 +83,7 @@ A total of 100 cards divided into 2 decks.
 - **If a player buys a card from a sale, paying with 2 or more cards**, the player is entitled to **1 compensation card** and should draw it from the top of the Market Deck.
 
 ### **4.2 Buy**
-- **If not selling, the player can exchange 3 of his cards for 1 from the Soap Deck.
+- **If not selling, the player can exchange 3 of his cards for 1 from the Soap Deck.**
 - The 3 exchanged cards are placed in a discard pile face down, and are out of play for the entire round.
 - **Then his turn is over.**
 
