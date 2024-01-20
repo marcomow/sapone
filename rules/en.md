@@ -70,7 +70,7 @@ A total of 100 cards divided into 2 decks.
 
 #### 4.1.1 Bid
 - **The other players may bid on the card being sold as many of their own cards as they want.**
-- **The seller evaluates the offers and will ask for more if they're not satisfied**; if an agreement is reached, the players exchange the cards (the buyer may be entitled to a [purchase compensation](#4-1-3-purchase-compensation).
+- **The seller evaluates the offers and will ask for more if they're not satisfied**; if an agreement is reached, the players exchange the cards (the buyer may be entitled to a [purchase compensation](#413-purchase-compensation).
 - **Agreement or not, the player's turn is over**, and the next player's turn begins.
 
 #### 4.1.2 Doubt a Sale
