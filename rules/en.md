@@ -19,7 +19,7 @@
   - **4 Picks**
   - **5 Shovels**
 
-##### **1.1 Soap Deck (40 cards):**
+##### **1.2 Soap Deck (40 cards):**
 - **20 Single Soaps**
 - **10 Double Soaps**
 - **4 Four Coins**
@@ -27,7 +27,7 @@
 - **2 Two Coins**
 - **1 Diamond**
 
-### **1. Playing**
+### **2. Playing**
 
 ##### **2.1 Set-up**
 - **Prepare to take notes on the players' scores each round.**
