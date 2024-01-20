@@ -68,20 +68,26 @@
 - **FAQ: What if no one wants to bid on a card?** If no bids are made, the card remains with the seller, and their turn ends.
 - **Note:** The seller can also explicitly state their desires, e.g., "I want vegetables."
 
-##### **4.2 Bidding**
+###### **4.1.1 Bidding**
 - **The other players may bid on the card being sold as many of their own cards as they want.**
 - **The seller evaluates the offers and will ask for more if they're not satisfied**; if an agreement is reached, the players exchange the cards (the buyer may be entitled to a purchase compensation).
 - **Agreement or not, the player's turn is over**, and the next player's turn begins.
 
-##### **4.3 Purchase Compensation**
+###### **4.1.2 Doubting a Sale**
+- During a sale, if the seller bluffs about the card they are selling, any buyer has the right to doubt the authenticity of the seller's claim.
+- Upon being doubted, the seller must reveal the card on sale.
+  - **If the seller was not bluffing:** The doubter must give one card from their hand to the seller, and the bidding continues as normal.
+  - **If the seller was bluffing:** The doubter receives the card on sale for free, and the sale immediately ends.
+
+###### **4.1.3 Purchase Compensation**
 - **If a player buys a card from a sale, paying with 2 or more cards**, the player is entitled to **1 compensation card** and should draw it from the top of the Market Deck.
 
-##### **4.4 Buy**
+##### **4.2 Buy**
 - **If not selling, the player can exchange 3 of his cards for 1 from the Soap Deck.
 - The 3 exchanged cards are placed in a discard pile face down, and are out of play for the entire round.
 - **Then his turn is over.**
 
-###### **4.4.1 Diamond**
+###### **4.2.1 Diamond**
 One of the cards that can be drawn from the Soap Deck is the Diamond. 
 This card is special as it acts like a Joker, and its value is not defined until the end of the Round.
 At the end of the Round, before calculating the score, the player who has it shall declare which value the diamond will hold, that can be any of the other cards.
