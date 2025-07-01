@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "arktype": "npm:arktype@^2.1.20",
+    "boardgame.io": "npm:boardgame.io@^0.50.2"
+  },
+  "lint": {
+    "rules": {
+      "exclude": [
+        "no-namespace"
+      ]
+    }
+  }
+}
